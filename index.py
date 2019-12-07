@@ -159,7 +159,7 @@ class Main:
 
     @staticmethod
     def create_line(data_object):
-        data_line = "%f,%f,%f,%f,%f,%f,%f,%f,%f,%s" % (
+        data_line = "%f,%f,%f,%f,%f,%f,%f,%f,%f,%s\n" % (
             data_object.get_longitude(), data_object.get_latitude(), data_object.get_housing_median_age(),
             data_object.get_total_rooms(),
             data_object.get_total_bedrooms(), data_object.get_population(), data_object.get_households(),
